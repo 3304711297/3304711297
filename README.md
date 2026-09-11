@@ -16,7 +16,7 @@
 
 | 项目 | 核心特色与架构 | 快速直达 |
 | :--- | :--- | :--- |
-| **[tweakbyjie](https://github.com/3304711297/tweakbyjie)** | **Windows 游戏与系统底层调优工具集**<br>• PowerShell 5.1 / 7+ 双运行时智能自适应启动器<br>• 0–11 完整模块化调度 + 启动预检智能灰掉 + 还原快照闭环<br>• 严格的 4 级风险短语确认与非交互式无人值守支持 | [📦 最新 Releases](https://github.com/3304711297/tweakbyjie/releases) |
+| **[tweakbyjie](https://github.com/3304711297/tweakbyjie)** | **Windows 游戏与系统底层调优工具集**<br>• PowerShell 5.1 / 7+ 双运行时智能自适应启动器<br>• 0–11 完整模块化调度 + 启动预检智能灰掉 + 还原快照闭环<br>• 高风险操作短语确认（I-UNDERSTAND-RISK）与非交互式无人值守支持 | [📦 最新 Releases](https://github.com/3304711297/tweakbyjie/releases) |
 | **[youshouldknow](https://github.com/3304711297/youshouldknow)** | **系统底层、硬件特性、超频调校与 AI 工具链知识库**<br>• 14 大实用分类（验机/CPU调度/GPU管线/DDR5超频/BCD启动/AI工具）<br>• 与 `tweakbyjie` 深度联动，Coverage 审计 100% 覆盖与双向映射 | [🌐 在线阅读站点](https://3304711297.github.io/youshouldknow/) |
 
 ---
@@ -31,6 +31,17 @@
 | **[openrouter-chinese-plus](https://github.com/3304711297/openrouter-chinese-plus)** | **OpenRouter 全站中文化 + 实时人民币价格换算**<br>• 20+ 页面全量汉化，React 拆分节点安全保护<br>• 4 级容灾实时汇率换算（保留官方美元原价，自动追加 `≈¥xx.xx` 参考价）<br>• 词库单文件内联，彻底解决浏览器缓存死锁 | [⚡ 安装脚本](https://raw.githubusercontent.com/3304711297/openrouter-chinese-plus/main/openrouter-chinese-plus.user.js) · [jsDelivr 镜像](https://cdn.jsdelivr.net/gh/3304711297/openrouter-chinese-plus@main/openrouter-chinese-plus.user.js) |
 | **[huggingface-chinese-plus](https://github.com/3304711297/huggingface-chinese-plus)** | **Hugging Face & hf-mirror 全站汉化增强**<br>• 官方站与国内镜像站 100% 深度汉化 + 动态时间/正则解析<br>• 代码高亮块、Monaco 编辑器与 Model Card 严格安全区豁免保护 | [⚡ 安装脚本](https://raw.githubusercontent.com/3304711297/huggingface-chinese-plus/main/huggingface-chinese-plus.user.js) · [jsDelivr 镜像](https://cdn.jsdelivr.net/gh/3304711297/huggingface-chinese-plus@main/huggingface-chinese-plus.user.js) |
 | **[steamdb-chinese-plus](https://github.com/3304711297/steamdb-chinese-plus)** | **SteamDB 全站中文化增强版**<br>• MutationObserver 动态实时翻译 + requestIdleCallback 空闲批处理<br>• 完整实装 DYNAMIC 动态字典段，支持未命中词条攒词模式 | [⚡ 安装脚本](https://raw.githubusercontent.com/3304711297/steamdb-chinese-plus/main/steamdb-chinese-plus.user.js) · [jsDelivr 镜像](https://cdn.jsdelivr.net/gh/3304711297/steamdb-chinese-plus@main/steamdb-chinese-plus.user.js) |
+
+---
+
+## 🤖 AI Agent 工具链
+
+把 Agent 工作流中缺失的基建补齐并开源：订阅额度转标准 API 网关、跨会话长期记忆真源。
+
+| 项目 | 核心特色与架构 | 快速直达 |
+| :--- | :--- | :--- |
+| **[workbuddy2api](https://github.com/3304711297/workbuddy2api)** | **腾讯 WorkBuddy / CodeBuddy 订阅转本地标准 API 网关（Tauri v2 桌面端）**<br>• 原生双协议兼容 OpenAI (`/v1/chat/completions`) 与 Anthropic Messages (`/v1/messages`)<br>• 直连驱动 Claude Code CLI 与 Hermes Agent<br>• 多账号资产看板与调度（failover / roundrobin 双模式）<br>• 夜间限免感知 + 风控削峰加固 | [📦 最新 Releases](https://github.com/3304711297/workbuddy2api/releases) |
+| **[shared-agent-memory](https://github.com/3304711297/shared-agent-memory)** | **跨会话 Agent 长期记忆真源**<br>• 记忆索引 + 主题卡片，让多会话 Agent 共享统一的长期记忆<br>• 能力清单看门 + 卫生 CI 门禁（自动扫描本机用户名与密钥泄露风险） | [📂 浏览仓库](https://github.com/3304711297/shared-agent-memory) |
 
 ---
 
