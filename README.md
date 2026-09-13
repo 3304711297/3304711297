@@ -48,8 +48,8 @@
 ## 📊 GitHub 统计
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=3304711297&show_icons=true&locale=cn&theme=default&hide_border=true" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=3304711297&layout=compact&locale=cn&theme=default&hide_border=true" alt="Top Langs">
+  <img src="https://github-readme-stats.shion.dev/api?username=3304711297&show_icons=true&locale=cn&theme=default&hide_border=true" alt="GitHub Stats">
+  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=3304711297&layout=compact&locale=cn&theme=default&hide_border=true" alt="Top Langs">
 </p>
 
 ---
