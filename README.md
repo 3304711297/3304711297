@@ -36,11 +36,12 @@
 
 ## 🤖 AI Agent 工具链
 
-把 Agent 工作流中缺失的基建补齐并开源：订阅额度转标准 API 网关、跨会话长期记忆真源。
+把 Agent 工作流中缺失的基建补齐并开源：订阅额度转标准 API 网关、跨会话长期记忆真源、Devin CLI 模型提供方插件。
 
 | 项目 | 核心特色与架构 | 快速直达 |
 | :--- | :--- | :--- |
 | **[workbuddy2api](https://github.com/3304711297/workbuddy2api)** | **腾讯 WorkBuddy / CodeBuddy 订阅转本地标准 API 网关（Tauri v2 桌面端）**<br>• 原生双协议兼容 OpenAI (`/v1/chat/completions`) 与 Anthropic Messages (`/v1/messages`)<br>• 直连驱动 Claude Code CLI 与 Hermes Agent<br>• 多账号资产看板与调度（failover / roundrobin 双模式）<br>• 夜间限免感知 + 风控削峰加固 | [📦 最新 Releases](https://github.com/3304711297/workbuddy2api/releases) |
+| **[hermes-devin-acp](https://github.com/3304711297/hermes-devin-acp)** | **官方 Devin CLI 的 Hermes 模型提供方插件（ACP 协议）**<br>• 将已登录的 Devin CLI 账号订阅接入 Hermes `/model` 选择器<br>• 按 ACP 会话实际宣告的可用模型精确映射（含别名与不可用回退）<br>• 传输层收敛在插件内部，保持 Hermes 核心干净 | [📂 浏览仓库](https://github.com/3304711297/hermes-devin-acp) |
 | **[shared-agent-memory](https://github.com/3304711297/shared-agent-memory)** | **跨会话 Agent 长期记忆真源**<br>• 记忆索引 + 主题卡片，让多会话 Agent 共享统一的长期记忆<br>• 能力清单看门 + 卫生 CI 门禁（自动扫描本机用户名与密钥泄露风险） | [📂 浏览仓库](https://github.com/3304711297/shared-agent-memory) |
 
 ---
