@@ -6,7 +6,8 @@
   <a href="https://3304711297.github.io/youshouldknow/"><img src="https://img.shields.io/badge/Knowledge%20Base-YouShouldKnow-526CFE?style=flat-square&logo=gitbook" alt="Docs"></a>
 </p>
 
-> 专注于做**自己每天都在用**的高质量工具——遇到不顺手的软件就优化，遇到缺中文的网站就汉化，把工程细节与稳定性打磨到极致并开源分享。
+> 专注于做**自己每天都在用**的高质量工具——遇到不顺手的软件就优化，遇到缺中文的网站就汉化，把工程细节与稳定性打磨到极致并开源分享。  
+> *Building high-craft Windows tools, browser userscripts, and AI Agent gateways that I use every day.*
 
 ---
 
@@ -40,7 +41,7 @@
 
 | 项目 | 核心特色与架构 | 快速直达 |
 | :--- | :--- | :--- |
-| **[workbuddy2api](https://github.com/3304711297/workbuddy2api)** | **腾讯 WorkBuddy / CodeBuddy 订阅转本地标准 API 网关（Tauri v2 桌面端）**<br>• 原生双协议兼容 OpenAI (`/v1/chat/completions`) 与 Anthropic Messages (`/v1/messages`)<br>• 直连驱动 Claude Code CLI 与 Hermes Agent<br>• 多账号资产看板与调度（failover / roundrobin 双模式）<br>• 夜间限免感知 + 风控削峰加固 | [📦 最新 Releases](https://github.com/3304711297/workbuddy2api/releases) |
+| **[workbuddy2api](https://github.com/3304711297/workbuddy2api)** | **腾讯 WorkBuddy / CodeBuddy 订阅转本地标准 API 网关（Tauri v2 桌面端）**<br>• 原生三协议兼容 OpenAI (`/v1/chat/completions`)、Anthropic (`/v1/messages`) 与 Responses (`/v1/responses`)<br>• 直连驱动 Codex CLI、Claude Code CLI 与 Hermes Agent<br>• 多账号资产看板与调度（failover / roundrobin 双模式）<br>• 夜间限免感知 + 风控削峰加固 | [📂 浏览仓库](https://github.com/3304711297/workbuddy2api) |
 | **[hermes-devin-acp](https://github.com/3304711297/hermes-devin-acp)** | **官方 Devin CLI 的 Hermes 模型提供方插件（ACP 协议）**<br>• 将已登录的 Devin CLI 账号订阅接入 Hermes `/model` 选择器<br>• 按 ACP 会话实际宣告的可用模型精确映射（含别名与不可用回退）<br>• 传输层收敛在插件内部，保持 Hermes 核心干净 | [📂 浏览仓库](https://github.com/3304711297/hermes-devin-acp) |
 | **[shared-agent-memory](https://github.com/3304711297/shared-agent-memory)** | **跨会话 Agent 长期记忆真源**<br>• 记忆索引 + 主题卡片，让多会话 Agent 共享统一的长期记忆<br>• 能力清单看门 + 卫生 CI 门禁（自动扫描本机用户名与密钥泄露风险） | [📂 浏览仓库](https://github.com/3304711297/shared-agent-memory) |
 
